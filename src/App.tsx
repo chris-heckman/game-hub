@@ -9,9 +9,9 @@ function App() {
     {/* Create the grid items for the multiple navbars */}
     <GridItem area='nav'><NavBar /></GridItem>
     <Show>
-      <GridItem area='aside' bg='gold'>Aside</GridItem>
+      <GridItem area='aside'>Aside</GridItem>
     </Show>
-    <GridItem area='main' bg='lightblue'>Main</GridItem>
+    <GridItem area='main'>Main</GridItem>
   </Grid>
 }
 
