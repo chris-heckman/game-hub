@@ -10,13 +10,17 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
       }}
+      templateColumns={{
+        base: "1fr",
+        lg: "200px 1fr",
+      }}
     >
       {/* Create the grid items for the multiple navbars */}
       <GridItem area="nav">
         <NavBar />
       </GridItem>
       <Show>
-        <GridItem area="aside">
+        <GridItem area="aside" paddingX={5}>
           <GenreList />
         </GridItem>
       </Show>
