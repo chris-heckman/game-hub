@@ -1,4 +1,4 @@
-import { Grid, grid, GridItem, Show } from "@chakra-ui/react"
+import { Grid, GridItem, Show } from "@chakra-ui/react"
 import NavBar from "./components/NavBar"
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     base: `"nav" "main"`,
     lg: `"nav nav" "aside main"`
   }}>
+    {/* Create the grid items for the multiple navbars */}
     <GridItem area='nav'><NavBar /></GridItem>
     <Show>
       <GridItem area='aside' bg='gold'>Aside</GridItem>
