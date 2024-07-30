@@ -1,4 +1,4 @@
-import noImage from '/assets/no-image-placeholder.webp'
+import noImage from '../assets/no-image-placeholder-6f3882e0.webp'
 
 
 const getCroppedImageUrl = (url: string) => {
@@ -9,3 +9,4 @@ const getCroppedImageUrl = (url: string) => {
 }
 
 export default getCroppedImageUrl;
+
